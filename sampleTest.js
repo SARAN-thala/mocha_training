@@ -73,15 +73,15 @@ describe('Array', function() {
   });
 });
 
-describe('User', function() {
-  describe('#save()', function() {
-    it('should save without error', function(done) {
-      var user = new User('Luna');
-      user.save(done);
+// describe('User', function() {
+//   describe('#save()', function() {
+//     it('should save without error', function(done) {
+//       var user = new User('Luna');
+//       user.save(done);
 
-    });
-  });
-});
+//     });
+//   });
+// });
 
 // describe('setTimeout',function(){
 // 	this.timeout(3100);
@@ -124,15 +124,16 @@ describe('add1()', function() {
 
 //--------------------------------------------------------------------------------------
 
-suite('Array', function() {
- 	setup(function() {
+// suite('Array', function() {
+//  	setup(function() {
  		
-    });
+//     });
 
-  suite('#indexOf()', function() {
-    test('should return -1 when not present', function() { 
-      assert.equal(-1, [1,2,3].indexOf(4));
-    });
-  });
-});
+//   suite('#indexOf()', function() {
+//     test('should return -1 when not present', function() { 
+//       assert.equal(-1, [1,2,3].indexOf(4));
+//     });
+//   });
+// });
+//----------------------------------------------------------------------------------
 
